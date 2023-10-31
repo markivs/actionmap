@@ -1,0 +1,21 @@
+.row.mt-2
+    .col-12.col-md-6.offset-md-3.col-xl-4.offset-xl-4
+        %h1.text-center New news article
+
+    .col-12.col-md-6.offset-md-3.col-xl-4.offset-xl-4
+        = form_tag representative_search_news_items_path, method: :get do
+            .form-group.row
+                .col-md-4
+                    %label.col-form-label
+                        Representative:
+                .col-md-6
+                    = select :news_item, :representative_id, @representatives_list, { include_blank: true },
+            class: 'form-control'
+                .col-md-8
+                    %label.col-form-label
+                        Issue:
+                .col-md-10
+                    = select :news_item, :issue, ApplicationHelper.issues, { include_blank: true },
+            class: 'form-control'
+            .actions
+                = submit_tag 'Search', class: 'btn btn-primary'

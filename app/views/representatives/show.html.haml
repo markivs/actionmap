@@ -1,0 +1,10 @@
+.card.mb-3
+    %h2.text-center.card_header= @representative.name
+    %h5.text-center.text-muted= @representative.title
+    %h6.text-center.text-muted= @representative.party
+    %h7.text-center.text-muted= @representative.ocdid
+    %h7.text-center.text-muted= @representative.address
+    .card-body
+    %img.rounded.mx-auto.d-block{ src: @representative.photo }
+    .card-body
+.card
