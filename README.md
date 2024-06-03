@@ -9,4 +9,3 @@ With login/logout functionality and ability to add news articles on representati
 
 </div>
 [![Watch the video](https://github.com/markivs/actionmap/blob/main/actionmap-40.mp4)]
-[![codecov](https://codecov.io/gh/saasbook/hw-agile-iterations/branch/master/graph/badge.svg?token=SGYCvQX4Us)](https://codecov.io/gh/saasbook/hw-agile-iterations)
