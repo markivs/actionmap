@@ -5,6 +5,8 @@
 An app that allows users to learn more about their representatives,
 political events in their area as well as aggregate, share and view news items in their locality.
 
+With login/logout functionality and ability to add news articles on representatives.
+
 </div>
 
 
