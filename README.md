@@ -8,4 +8,7 @@ political events in their area as well as aggregate, share and view news items i
 With login/logout functionality and ability to add news articles on representatives.
 
 </div>
-[![Watch the video](https://github.com/markivs/actionmap/blob/main/actionmap-40.mp4)]
+
+
+https://github.com/markivs/actionmap/assets/43553951/9264930b-d106-4726-8e53-37061eb6ba67
+
